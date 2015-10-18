@@ -1,1 +1,6 @@
-script: "back-end/.travis.yml"
+language: java
+jdk:
+  - oraclejdk8
+
+cd back-end
+mvn install

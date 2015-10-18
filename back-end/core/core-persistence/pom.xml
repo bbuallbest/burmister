@@ -68,26 +68,26 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.liquibase</groupId>
-                <artifactId>liquibase-maven-plugin</artifactId>
-                <version>3.4.1</version>
-                <configuration>
-                    <changeLogFile>src/main/resources/changelog/changelog-root.xml</changeLogFile>
-                    <driver>org.postgresql.Driver</driver>
-                    <url>jdbc:postgresql://localhost:5432/TestDB</url>
-                    <username>postgres</username>
-                    <password>password</password>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>update</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.liquibase</groupId>-->
+                <!--<artifactId>liquibase-maven-plugin</artifactId>-->
+                <!--<version>3.4.1</version>-->
+                <!--<configuration>-->
+                    <!--<changeLogFile>src/main/resources/changelog/changelog-root.xml</changeLogFile>-->
+                    <!--<driver>org.postgresql.Driver</driver>-->
+                    <!--<url>jdbc:postgresql://localhost:5432/TestDB</url>-->
+                    <!--<username>postgres</username>-->
+                    <!--<password>password</password>-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>process-resources</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>update</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
         </plugins>
     </build>
 </project>

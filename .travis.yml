@@ -2,5 +2,4 @@ language: java
 jdk:
   - oraclejdk8
 
-cd back-end
-mvn install
+script: cd back-end && mvn install

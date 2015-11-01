@@ -13,8 +13,7 @@
     <name>payman</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>paymen-service</module>
-        <module>payman-rest</module>
+        <module>payman-api-rest</module>
     </modules>
 
     <properties>

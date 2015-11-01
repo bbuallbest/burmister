@@ -21,7 +21,7 @@
 
         <dependency>
             <groupId>org.burmister</groupId>
-            <artifactId>core-entity</artifactId>
+            <artifactId>core-model</artifactId>
             <version>0.1</version>
             <scope>compile</scope>
         </dependency>

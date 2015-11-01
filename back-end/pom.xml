@@ -8,6 +8,8 @@
   <modules>
     <module>core</module>
     <module>payman</module>
+    <module>security</module>
+    <module>web</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -1,6 +1,6 @@
 package org.burmister.core.persistence.mapper;
 
-import org.burmister.core.entity.Change;
+import org.burmister.core.model.Change;
 
 /**
  * @author Kyrylo Berehovyi

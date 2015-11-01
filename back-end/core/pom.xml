@@ -13,8 +13,8 @@
     <name>core</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>core-entity</module>
         <module>core-persistence</module>
+        <module>core-model</module>
     </modules>
 
     <properties>

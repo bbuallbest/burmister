@@ -1,6 +1,6 @@
 package org.burmister.core.persistence.dao;
 
-import org.burmister.core.entity.Change;
+import org.burmister.core.model.Change;
 import org.burmister.core.persistence.mapper.ChangeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
